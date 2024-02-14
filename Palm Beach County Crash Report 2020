@@ -72,8 +72,6 @@
         }
       ],
       "source": [
-        "#Problem 1\n",
-        "#Problem 1A\n",
         "import pandas as pd\n",
         "import matplotlib.pyplot as plt\n",
         "import seaborn as sns\n",
@@ -151,7 +149,6 @@
     {
       "cell_type": "code",
       "source": [
-        "# Problem 1C\n",
         "import pandas as pd\n",
         "import matplotlib.pyplot as plt\n",
         "import seaborn as sns\n",
@@ -215,7 +212,6 @@
     {
       "cell_type": "code",
       "source": [
-        "# Problem 1D\n",
         "print(monthly_crashes_and_county_count.mean())\n",
         "print(monthly_crashes_and_county_count.median())\n",
         "print(monthly_crashes_and_county_count.std())\n",
@@ -251,8 +247,6 @@
       "cell_type": "code",
       "source": [
         "\n",
-        "#Problem 2\n",
-        "#Problem 2A\n",
         "import pandas as pd\n",
         "import matplotlib.pyplot as plt\n",
         "import seaborn as sns\n",
@@ -382,7 +376,6 @@
     {
       "cell_type": "code",
       "source": [
-        "#Problem 2B\n",
         "import pandas as pd\n",
         "import matplotlib.pyplot as plt\n",
         "import seaborn as sns\n",
@@ -477,7 +470,6 @@
     {
       "cell_type": "code",
       "source": [
-        "#Problem 2C\n",
         "#Conclusion\n",
         "#Based on the data displayed above it shows that most accidents occur from non-aggressive and non-speeding driving. The overall number of accidents that do happen are mostly at a severity level of 1. While aggressive driving and speeding is an issue it seems as though the frequency of accidents happening from them is substantially lower than non-speeding and non-aggressive driving. Although, around a 6 severity level the numbers are closer to each other by a couple hundred."
       ],
@@ -490,7 +482,6 @@
     {
       "cell_type": "code",
       "source": [
-        "#Extra Credit\n",
         "\n",
         "#No seatbelts worn\n",
         "crash_df_no_seatbelts = df[df[\"NO_BELT_IND\"] == \"Y\"]\n",
